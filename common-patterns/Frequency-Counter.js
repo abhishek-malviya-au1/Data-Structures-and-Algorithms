@@ -35,6 +35,7 @@ console.log('Normal Counter =>',normalFrequencyCounter('abhishek', 'shekabhi'));
 
 
 //Optimised Frequency counter
+//This approach's complexity is O(3n) which is quite less than the normal approach
 let optimisedFrequencyCounter = (str1, str2) => {
     let arr1 = str1.split("");
     let arr2 = str2.split("");
